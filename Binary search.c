@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int binarySearch(int arr[], int left, int right, int target) {
-    if (right >= left) {
+int binarySearch(int arr[], int left, int right, int target) 
+{
+    if (right >= left) 
+	{
         int mid = left + (right - left) / 2;
 
         if (arr[mid] == target)
